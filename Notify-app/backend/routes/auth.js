@@ -89,7 +89,7 @@ router.post(
   }
 );
 //ROUTE 3: Get loggedin user details using : POST "/api/auth/getuser". Login required
-router.post(
+router.get(
   "/getuser",
   fetchuser,
   async (req, res) => {
